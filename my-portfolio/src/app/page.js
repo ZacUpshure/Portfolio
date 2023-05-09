@@ -1,13 +1,24 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import { AiFillGithub } from 'react-icons/ai'
+import { AiFillLinkedin } from 'react-icons/ai'
+import { AiFillInstagram } from 'react-icons/ai'
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
+        <p className={styles.social__icons_layout}>
+          <a href='#'>
+            <AiFillGithub className={styles.socials}/>
+          </a>
+          <a href='#'>
+            <AiFillLinkedin className={styles.socials}/>
+          </a>
+          <a href='#'>
+            <AiFillInstagram className={styles.socials}/>
+          </a>
+          {/* <code className={styles.code}>src/app/page.js</code> */}
         </p>
         <div>
           <a
@@ -15,13 +26,12 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
             <Image
-              src="/vercel.svg"
+              src="/EDEV.svg"
               alt="Vercel Logo"
               className={styles.vercelLogo}
-              width={100}
-              height={24}
+              width={120}
+              height={30}
               priority
             />
           </a>
@@ -31,10 +41,10 @@ export default function Home() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/next.svg"
+          src="/Hero_image.png"
           alt="Next.js Logo"
-          width={180}
-          height={37}
+          width={300}
+          height={300}
           priority
         />
       </div>
