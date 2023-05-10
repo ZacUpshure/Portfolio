@@ -89,16 +89,14 @@ export default function Home() {
           <h2>
             About Me <span>-&gt;</span>
           </h2>
-          <div className={styles.center} >
-          <p>
+          <code className={styles.code}>
             I started Web development when I was about 15 years old. Coming 
             from a Design background, I later became more and more interested in Code and Software engineering.
             it was quite a long way until I got into the matter but as seen in my cv, in 2020 I decided to study 
             Computer Science thinking that it was just code... It wasnt! Regardless it was a good time, the 
             Network and the Work experience that I was allowed to gather as a working student got me truly to the next
             level. Now I live with my wife and my daughter in Pankow for my last year in University. 
-          </p>
-          </div>
+          </code>
     </main>
   )
 }
