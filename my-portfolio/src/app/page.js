@@ -9,10 +9,10 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p className={styles.social__icons_layout}>
-          <a href='#'>
+          <a href='https://github.com/ZacUpshure'>
             <AiFillGithub className={styles.socials}/>
           </a>
-          <a href='#'>
+          <a href='https://www.linkedin.com/in/aaron-engelmann-90a956187/'>
             <AiFillLinkedin className={styles.socials}/>
           </a>
           <a href='#'>
@@ -59,7 +59,7 @@ export default function Home() {
           <h2>
             CV <span>-&gt;</span>
           </h2>
-          <p>Take a look at my CV to find my strenght and weaknesses!</p>
+          <p>Take a look at my CV to find my strength and weaknesses!</p>
         </a>
 
         {/*<a
@@ -75,7 +75,7 @@ export default function Home() {
         </a>*/}
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="http://themoseseye-cicd-git-frontend.s3-website.eu-central-1.amazonaws.com/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -84,17 +84,8 @@ export default function Home() {
             My Projekts <span>-&gt;</span>
           </h2>
           <p>Here is some of my Previous Work</p>
-          <Image src="/project1.jpg" alt="test" width={181} height={126}/>
-          <Image src="/project2.jpg" alt="test" width={181} height={126}/>
-          <Image src="/projec3.png" alt="test" width={181} height={126}/>
         </a>
-
-        <a
-          href=""
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+      </div>
           <h2>
             About Me <span>-&gt;</span>
           </h2>
@@ -106,9 +97,6 @@ export default function Home() {
             Network and the Work experience that I was allowed to gather as a working student got me truly to the next
             level. Now I live with my wife and my daughter in Pankow for my last year in University. 
           </p>
-        </a>
-
-      </div>
     </main>
   )
 }
