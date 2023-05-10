@@ -84,7 +84,7 @@ export default function Home() {
             My Projekts <span>-&gt;</span>
           </h2>
           <p>Here is some of my Previous Work</p>
-          <Image src={/project1.png} alt="test" width={1231} height={846}/>
+          <Image src="/project1.jpg" alt="test" width={1231} height={846}/>
         </a>
 
         <a
