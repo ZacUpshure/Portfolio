@@ -89,6 +89,7 @@ export default function Home() {
           <h2>
             About Me <span>-&gt;</span>
           </h2>
+          <div className={styles.center} >
           <p>
             I started Web development when I was about 15 years old. Coming 
             from a Design background, I later became more and more interested in Code and Software engineering.
@@ -97,6 +98,7 @@ export default function Home() {
             Network and the Work experience that I was allowed to gather as a working student got me truly to the next
             level. Now I live with my wife and my daughter in Pankow for my last year in University. 
           </p>
+          </div>
     </main>
   )
 }
