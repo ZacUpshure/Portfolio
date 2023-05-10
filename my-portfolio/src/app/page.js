@@ -84,9 +84,9 @@ export default function Home() {
             My Projekts <span>-&gt;</span>
           </h2>
           <p>Here is some of my Previous Work</p>
-          <Image src="/project1.jpg" alt="test" width={181} height={106}/>
-          <Image src="/project2.jpg" alt="test" width={181} height={106}/>
-          <Image src="/project3.png" alt="test" width={181} height={106}/>
+          <Image src="/project1.jpg" alt="test" width={181} height={126}/>
+          <Image src="/project2.jpg" alt="test" width={181} height={126}/>
+          <Image src="/projec3.png" alt="test" width={181} height={126}/>
         </a>
 
         <a
