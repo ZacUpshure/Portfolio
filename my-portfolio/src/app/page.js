@@ -59,7 +59,7 @@ export default function Home() {
           <h2>
             CV <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>Take a look at my CV to find my strenght and weaknesses!</p>
         </a>
 
         {/*<a
