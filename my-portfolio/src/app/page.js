@@ -83,7 +83,8 @@ export default function Home() {
           <h2>
             My Projekts <span>-&gt;</span>
           </h2>
-          <p>Explore the Next.js 13 playground.</p>
+          <p>Here is some of my Previous Work</p>
+          <Image src={/project1.png} alt="test" width={1231} height={846}/>
         </a>
 
         <a
