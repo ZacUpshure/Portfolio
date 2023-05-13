@@ -15,9 +15,6 @@ export default function Home() {
           <a href='https://www.linkedin.com/in/aaron-engelmann-90a956187/'>
             <AiFillLinkedin className={styles.socials}/>
           </a>
-          <a href='#'>
-            <AiFillInstagram className={styles.socials}/>
-          </a>
           {/* <code className={styles.code}>src/app/page.js</code> */}
         </p>
         <div>
@@ -50,17 +47,6 @@ export default function Home() {
       </div>
 
       <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            CV <span>-&gt;</span>
-          </h2>
-          <p>Take a look at my CV to find my strength and weaknesses!</p>
-        </a>
 
         {/*<a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
